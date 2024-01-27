@@ -105,6 +105,11 @@ choice
 		depends on SOC_MT7620
 		select BUILTIN_DTB
 
+	config DTB_XIAOMI4C
+		bool "Xiaomi4C"
+		depends on SOC_MT7620
+		select BUILTIN_DTB
+
 endchoice
 
 endif
